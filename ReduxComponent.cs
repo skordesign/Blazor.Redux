@@ -3,7 +3,7 @@ using System;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace PolarizeLab.Blazor.Redux
+namespace Polarizelab.Blazor.Redux
 {
     public abstract class ReduxComponent<TState, TViewModel> : ComponentBase, IDisposable where TState : class
     {

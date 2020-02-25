@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PolarizeLab.Blazor.Redux
+namespace Polarizelab.Blazor.Redux
 {
     public delegate void MiddlewareDelegate<TState>(Store<TState> state, object action, Dispatcher dispatcher) where TState : class;
     public class Middleware<TState> where TState : class

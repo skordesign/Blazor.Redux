@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PolarizeLab.Blazor.Redux
+namespace Polarizelab.Blazor.Redux
 {
     public class Store<TState> where TState : class
     {

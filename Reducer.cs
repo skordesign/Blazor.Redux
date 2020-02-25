@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PolarizeLab.Blazor.Redux
+namespace Polarizelab.Blazor.Redux
 {
     public delegate TState Reducer<TState>(TState state, object action);
 }
